@@ -19,7 +19,7 @@ Architecture of processor is determined by those basic things:
 
 On each cycle of the processor, the instruction with respective program counter index is being pulled out from the instruction memory. According to the instruction type and its parameters, the data is taken from register file and / or from data memory. After some actions, implemented on ALU (Arithmetic Logic Unit), new data is sent back to the register file and / or data memory and / or change the value of the program counter. So, the current state of the processor is determined by the values, written to the register file, data memory and program counter. Logic of transitioning between states is determined by the instruction memory values and the processor implementation.
 
-## [4]:Register file
+## [4]: Register file
 
 As it was mentioned before, register file is a block of memory, with 32x32 bits dimension. Operations with every register are implemented in the next sequence - data is loaded from instruction, stored in instruction memory (such as Rs, Rt, Rd - depends on the instruction format), and from data memory (RW). After operations with this data is completed, processor stores the result in memory and begins execution of the next instruction.
 
@@ -149,7 +149,7 @@ J-Type Format instructions:
 + BEQ
 + J
 
-## [5]:Instruction memory
+## [5]: Instruction memory
 
 In this realisation of MIPS, instruction memory initialize binary file ```ROM_FILE.bin```, that contains sequence of commands, desribed in assembler file. These commands presented in hexadecimal values, so that machine would be able to understand them. Conversion from assembler code into hexadecimal format is completed using [MIPS Converter](https://www.eg.bucknell.edu/~csci320/mips_web/). Also, this service can convert hexadeciaml value into assembler code. Note, that you have to convert your register numeric value into its name. For example:
 
@@ -171,7 +171,7 @@ Its hehadecimal value:
 0x02309025
 ```
 
-## [6]:Program Counter
+## [6]: Program Counter
 
 Let's see, how following program will look like in instruction memory. For example, program is:
 
