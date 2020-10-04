@@ -195,10 +195,25 @@ How it will loke lie in insrtuction memory:
 When processor starts working, it will take first 4 bites from instruction memory, and executes it as one command. After execution it will take the next 4 bites from instruction memory (in case J-Type format instructions, will take 4 bites from the point, where it will branch). Program counter is needed for processor because it contains address os instruction, that is executed during current cycle. 
 
 
----
+----
 
 Other blocks, used for Single-Cycle MIPS32 processor are described and explained in sources, mentioned above.
+
+----
+
+## Simulation
+
+To simulate Single-Cycle MIPS32 processor use [ModelSim*-Intel® FPGA Edition Software][4]. Execution:
+
++ Linux:
+
+Run command ```vsim -do sim.do``` using Terminal, opened in directory with project.
+
++ Windows:
+
+Run command ```vsim -do sim.do``` using Windows PowerShell (Quick Access Toolbar -> File -> Open Windows PowerShell).
 
 [1]: https://faculty.kfupm.edu.sa/COE/mudawar/coe301/lectures/index.htm
 [2]: https://moodlearn.ariel.ac.il/pluginfile.php/1649872/mod_resource/content/0/%5BDavid_Harris%2C_Sarah_Harris%5D_Digital_Design_and_Co%28b-ok.xyz%29.pdf
 [3]: https://ict.iitk.ac.in/wp-content/uploads/CS422-Computer-Architecture-ComputerOrganizationAndDesign5thEdition2014.pdf
+[4]: https://www.intel.ru/content/www/ru/ru/software/programmable/quartus-prime/model-sim.html
