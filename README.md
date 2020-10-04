@@ -192,7 +192,7 @@ How it will loke lie in insrtuction memory:
 0x0000000C: 00000000 11100010 00100000 00100101
 ```
 
-When processor starts working, it will take first 4 bites from instruction memory, and executes it as one command. After execution it will take the next 4 bites from instruction memory (in case J-Type format instructions, will take 4 bites from the point, where it will bracnh). Program counter is needed for processor because it contains address os instruction, that is executed during current cycle. 
+When processor starts working, it will take first 4 bites from instruction memory, and executes it as one command. After execution it will take the next 4 bites from instruction memory (in case J-Type format instructions, will take 4 bites from the point, where it will branch). Program counter is needed for processor because it contains address os instruction, that is executed during current cycle. 
 
 [1]: https://faculty.kfupm.edu.sa/COE/mudawar/coe301/lectures/index.htm
 [2]: https://moodlearn.ariel.ac.il/pluginfile.php/1649872/mod_resource/content/0/%5BDavid_Harris%2C_Sarah_Harris%5D_Digital_Design_and_Co%28b-ok.xyz%29.pdf
