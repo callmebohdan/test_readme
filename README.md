@@ -203,7 +203,7 @@ Other blocks, used for Single-Cycle MIPS32 processor are described and explained
 
 ## Simulation
 
-To simulate Single-Cycle MIPS32 processor use [ModelSim*-Intel® FPGA Edition Software][4]. Execution:
+To simulate Single-Cycle MIPS32 processor use [ModelSim*-Intel® FPGA Edition Software][4]. For different OS:
 
 + Linux:
 
