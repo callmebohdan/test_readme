@@ -130,8 +130,8 @@ R-Type Format instructions:
 + SLL
 + SRL
 + SRA
-+ ROR
-+ ROL
++ ROR (created own pseudo-instruction)
++ ROL (created own pseudo-instruction)
 
 I-Type Format instructions:
 
